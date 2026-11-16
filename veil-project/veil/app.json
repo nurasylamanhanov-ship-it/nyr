@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "VEIL — Приватность устройства",
+    "slug": "veil",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/veil-icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#283423",
+        "foregroundImage": "./assets/veil-icon.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/veil-favicon.png"
+    },
+    "scheme": "veil",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
